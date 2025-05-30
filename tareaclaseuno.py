@@ -29,7 +29,8 @@ print("Computadores Todo en Uno Remanofacturados   |         {}          |      
 print("____________________________________________|_____________________|____________________|_____________________|");
 
 vrtotalexist=vunitario*totaleqinv
-porcentotalvta=vrtotal%vrtotalexist
+total_inventario=vrtotalexist+vrtotal
+porcentotalvta=total_inventario%vrtotalexist/100
 
 print("Porcentaje de Venta inicial de :\n"); 
 print("_____________________________________________________________________________________________________________________");
